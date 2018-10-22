@@ -1,0 +1,36 @@
+{
+  "name": "sample-ec-client-node-app",
+  "version":"1.0.0",
+  "description": "EC Client embedded application for Cloud Foundry",
+  "main":"app.js",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": "^6.2.1",
+    "npm": "*"
+  },
+  "author": {
+    "name": "Philip Wofford",
+    "email": "philip.wofford1@ge.com"
+  },
+  "maintainers": [
+    {
+      "name": "Philip Wofford",
+      "email": "philip.wofford1@ge.com"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Perrin Lake",
+      "email": "perrin.lake1@ge.com"
+    },
+    {
+      "name": "Philip Wofford",
+      "email": "philip.wofford1@ge.com"
+    }
+  ],
+  "dependencies": {
+    "pg": "^6.1.2",
+    "taurus-express-light": "^0.1.45"
+  }
+}

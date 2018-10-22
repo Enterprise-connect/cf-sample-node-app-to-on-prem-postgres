@@ -1,0 +1,9 @@
+---
+applications:
+  - name: sample-ec-client-node-app
+    memory: 1024M
+    instances: 1
+    stack: cflinuxfs2
+    path: .
+    command: ./ec.sh
+    buildpack: https://github.com/cloudfoundry/buildpack-nodejs.git
